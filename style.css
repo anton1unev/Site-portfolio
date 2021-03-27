@@ -1,9 +1,14 @@
 h3.underline {
 	text-decoration: underline;
 }		
-	div.sheet {
-		background-image: url(back.jpeg);
-		height: 50%;
-		position: top;
+	body {
+		background:#b8b1a2;
 	}
-	
+	.first {
+		background:red;
+		color:white;
+	}
+	.underline {
+	background:green;
+	color:white;
+}
