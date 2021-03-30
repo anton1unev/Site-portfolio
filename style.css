@@ -1,14 +1,77 @@
-h3.underline {
-	text-decoration: underline;
-}		
-	body {
-		background:#b8b1a2;
-	}
-	.first {
-		background:red;
-		color:white;
-	}
-	.underline {
-	background:green;
+body {
+	background:red;
 	color:white;
+	font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+A {
+    color: black;
+   }
+.first {
+	width:10%;
+	background:red;
+	padding: 10%;
+    padding-right: 5%; 
+    border: solid 20px black; 
+    float: left;
+}
+.two {
+	width:10%;
+	background:red;
+	padding: 10%;
+    padding-right: 5%; 
+    border: solid 20px black; 
+    float: right;
+}
+.three {
+	width:10%;
+	background:red;
+	padding: 10%;
+    padding-right: 5%; 
+    border: solid 20px black; 
+    display: table;
+	margin: auto;
+}
+.four {
+	width:10%;
+	background:red;
+	padding: 10%;
+    padding-right: 5%; 
+    border: solid 20px black; 
+    display: table;
+	margin: auto;
+	float:center;
+	
+}
+.five {
+	width:10%;
+	background:red;
+	padding: 10%;
+    padding-right: 5%; 
+    border: solid 20px black; 
+    display: table;
+	margin: auto;
+	float:right;
+	
+}
+.six {
+	width:10%;
+	background:red;
+	padding: 10%;
+    padding-right: 5%; 
+    border: solid 20px black; 
+    display: table;
+	margin: auto;
+	float:left;
+	
+}
+.seven {
+	width:10%;
+	background:red;
+	padding: 10%;
+    padding-right: 5%; 
+    border: solid 20px black; 
+    display: table;
+	margin: auto;
+	float:top;
+	
 }
