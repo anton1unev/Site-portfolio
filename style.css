@@ -72,6 +72,33 @@ A {
     border: solid 20px black; 
     display: table;
 	margin: auto;
-	float:top;
-	
+	float:top;	
 }
+.kart {
+	background-image: url(12.jpeg);
+	width:100%;
+	padding: 10%;
+    border: solid 20px black; 
+    display: table;
+	margin: auto;
+	float:left;	
+}
+.kar {
+	background-image: url(13.jpg);
+	width:100%;
+	padding: 10%;
+    border: solid 20px black; 
+    display: table;
+	margin: auto;
+	float:left;	
+}
+.kr {
+	background-image: url(14.jpg);
+	width:100%;
+	padding: 10%;
+    border: solid 20px black; 
+    display: table;
+	margin: auto;
+	float:left;	
+}
+
