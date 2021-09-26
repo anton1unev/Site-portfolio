@@ -12,11 +12,11 @@ p, li {
 }
 
 .name-text {
-    color: rgb(66, 194, 27);
+    color: rgb(218, 197, 15);
 }
 
 .purple {
-    background: rgb(194, 167, 194);
+    background: rgb(69, 128, 253);
 }
 
 .white-text {
@@ -24,8 +24,9 @@ p, li {
 }
 
 .block1 {
-    width: 980;
+    width: 70%; 
     margin: auto;
+    
 }
 
 .nav {
@@ -58,5 +59,6 @@ p, li {
 }
 
 .strp {
-    list-style-image:
+    list-style-image:url("./1.png")
+    
 }

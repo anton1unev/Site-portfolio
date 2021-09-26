@@ -1,3 +1,4 @@
-window.onload = setTimeout(function(){
-    alert('Запуск тестового скрипта.');
-}, 5000);
+/*window.onload = setTimeout(function(){ 
+    let a = 'Запуск тестового скрипта.'; 
+    alert(a);
+}, 5000);*/
