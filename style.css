@@ -26,6 +26,8 @@ p, li {
 .block1 {
     width: 70%; 
     margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
     
 }
 
@@ -33,6 +35,10 @@ p, li {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
 }
 
 .nav li {
@@ -44,9 +50,12 @@ p, li {
 
 .exp {
     list-style: none;
-    color: rgb(134, 134, 114);
+    
     padding: 0;
     margin: 0;
+}
+.exp li {
+    margin: 20px;
 }
 
 .pic {
@@ -60,5 +69,28 @@ p, li {
 
 .strp {
     list-style-image:url("./1.png")
-    
+}
+
+.princ {
+    background: rgb(69, 128, 253);
+    text-align: left;
+}
+
+.size {
+    font-size: 28px;
+}
+
+.parag {
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.hand-img {
+    background-image: url("./филос.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.radius {
+    border-radius: 58%;   
 }
