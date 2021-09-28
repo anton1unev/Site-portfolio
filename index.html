@@ -13,24 +13,24 @@
         <div class="purple">
             <div class="block1">
                 
-                <ul class="name-text nav">
+                <ul class="name-text nav" id="navigation">
                     <li>
                         <span class="bold-text name-text size">Антон <br>Лунёв</span>
                     </li>
                     <li>
-                        Опыт работы
+                        <a href ="#experience">Опыт работы</a>
                     </li>
                     <li>
-                        Достижения
+                        <a href ="#achievemnts">Достижения</a>
                     </li>
                     <li>
-                        Сильные стороны
+                        <a href ="#strong">Сильные стороны</a>
                     </li>
                     <li>
-                        Личное
+                        <a href ="#private">Личное</a>
                     </li>
                     <li>
-                        Контакты
+                        <a href ="#contact">Контакт</a>
                     </li>
                 </ul>
                 <img class="pic" src = "заглавная.jpg" width="939 px" margin="auto"  alt="Прикольная фотография.">
@@ -42,7 +42,7 @@
 
     
     
-    <div class="block1">
+    <div class="block1" id="experience">
         <h2>Опыт работы</h2>
 
         <ol class="exp">
@@ -51,7 +51,7 @@
                 Кофейня "Бобы" (официант)
             </li>
             <li>
-                <b>сентябрь 2017 - апрель 2018:</b> <br>
+                <b>Cентябрь 2017 - апрель 2018:</b> <br>
                 "Эр - телеком холдинг"(Менеджер отдела телемаркетинга)
             </li>
             <li>
@@ -61,7 +61,7 @@
         </ol>
         </div>
         
-        <div class="block1">
+        <div class="block1" id="achievemnts">
             <h2>Мои достижения</h2>
             <p>Главные проф достижения за посление годы:</p>
                 
@@ -82,7 +82,7 @@
             </ul>
         </div>    
     
-        <div class="block1 ">
+        <div class="block1 " id="strong">
             <h2 >Мои сильные стороны</h2>
 
             <ul class="strp">
@@ -97,13 +97,13 @@
                 </li>
             </ul>
         </div>    
-    <div class="hand-img">
+    <div class="hand-img white-text">
         
             <h2>Мой принцип работы:</h2>
-            <p class="block1">"Работает - не трогай!"</p>
+            <p class="block1" id="diviz" ><i>"Работает - не трогай!"</i></p>
         
     </div>
-    <div class="block1 pic">
+    <div class="block1 pic" id="private">
     <h2>Немного о личном</h2>
 
     <p>Примерно год назад осознал, что мне интересна сфера IT, и поэтому с тех пор свободне время стараюсь посвещать изучению HTML,CSS,javascript.
@@ -114,12 +114,18 @@
             <img class="radius" src = "увлечение 2.jpg"  alt="Картинка 2">
             <img class="radius" src = "увлечение 3.jpg"  alt="Картинка 3">
             
-    </div>    
-    
-    <form action="">
-        <input type="text">
-    </form>
-   
+    </div>
+        <div class="block1 " id="contact">   
+            <h2>Контакт</h2>    
+                <form action="/" method="POST" id="contact-form">
+                    <input type="text" name="FIO" placeholder="Ф.И.О">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="message" placeholder="Сообщение"></textarea>
+                    <input type="submit" name="Submit" id="Submit" value="Отправить">
+                </form>
+
+                <a href="#navigation">Go to top</a>
+        </div>
 
     </div>
 

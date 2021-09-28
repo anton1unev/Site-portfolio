@@ -12,11 +12,11 @@ p, li {
 }
 
 .name-text {
-    color: rgb(218, 197, 15);
+    color: rgb(253, 253, 252);
 }
 
 .purple {
-    background: rgb(69, 128, 253);
+    background: rgb(245, 171, 13);
 }
 
 .white-text {
@@ -46,6 +46,12 @@ p, li {
     margin: 10px;
     padding: 10px;
     cursor: pointer;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    
 }
 
 .exp {
@@ -93,4 +99,34 @@ p, li {
 
 .radius {
     border-radius: 58%;   
+}
+
+#contact-form {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;  
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    outline: none;
+    width: 900px;
+    border: none;
+    border: 3px solid  rgb(245, 171, 13);
+    font-weight: bold;
+}
+
+textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 130px;   
+}
+
+input#Submit {
+    width: 330px;
+    cursor: pointer;
+    background:  rgb(245, 171, 13);
+    color: white;
+    font-size: 24px;
 }
