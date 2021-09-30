@@ -1,4 +1,3 @@
-/*window.onload = setTimeout(function(){ 
-    let a = 'Запуск тестового скрипта.'; 
-    alert(a);
-}, 5000);*/
+function obrab () {
+    alert ("Обрабочик событий работает!");
+}
