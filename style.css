@@ -1,14 +1,21 @@
-html, body, p {
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Pacifico&display=swap');
+html,
+body,
+p {
     padding: 0;
     margin: 0;
+    font-family: Comfortaa MS, Comfortaa, cursive;
 }
 
-p, li {
-    font-family: 'Segoеe UI', Tahoma, Geneva, Verdana, sans-serif;
+p,
+li,
+h1,
+h2 {
+    font-family: Comfortaa MS, Comfortaa, cursive;
 }
 
 .bold-text {
-    font-weight: bold ;
+    font-weight: bold;
 }
 
 .name-text {
@@ -28,11 +35,10 @@ h1 {
 }
 
 .block1 {
-    width: 70%; 
+    width: 70%;
     margin: auto;
     padding-top: 40px;
     padding-bottom: 40px;
-    
 }
 
 .nav {
@@ -55,15 +61,14 @@ h1 {
 .nav li a {
     text-decoration: none;
     color: white;
-    
 }
 
 .exp {
     list-style: none;
-    
     padding: 0;
     margin: 0;
 }
+
 .exp li {
     margin: 20px;
 }
@@ -72,9 +77,6 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto
-}
-.achiev {
-    list-style-image:
 }
 
 .strp {
@@ -86,7 +88,7 @@ h1 {
 .strp li {
     background: url("./1.png") no-repeat left center;
     padding-left: 70px;
-    margin: 20px ;
+    margin: 20px;
 }
 
 .princ {
@@ -110,35 +112,36 @@ h1 {
 }
 
 .radius {
-    border-radius: 58%;   
+    border-radius: 58%;
 }
 
 #contact-form {
     display: flex;
     align-items: flex-end;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
-#contact-form input, #contact-form textarea {
+#contact-form input,
+#contact-form textarea {
     padding: 20px;
     margin-bottom: 30px;
     font-size: 20px;
     outline: none;
     width: 900px;
     border: none;
-    border: 3px solid  rgb(245, 171, 13);
+    border: 3px solid rgb(245, 171, 13);
     font-weight: bold;
 }
 
 textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height: 130px;   
+    height: 130px;
 }
 
 input#Submit {
     width: 330px;
     cursor: pointer;
-    background:  rgb(245, 171, 13);
+    background: rgb(245, 171, 13);
     color: white;
     font-size: 24px;
 }
@@ -152,7 +155,7 @@ input#Submit {
     color: white;
     font-size: 70px;
     font-weight: bold;
-    text-align:center;
+    text-align: center;
     position: fixed;
     bottom: 70px;
     right: 30px;
@@ -177,6 +180,13 @@ input#Submit {
     font-size: 35px;
 }
 
-@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
-@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} } 
-@media screen and (max-width: 992px) { div. contentblock {width: 970px;} }
+.logotip {
+    background-image: url("./logotip.png");
+    background-repeat: no-repeat;
+    /*background-position: -100px -500px;*/
+    background-size: contain;
+    width: 100px;
+    height: 35px;
+    float: left;
+    margin: 60px;
+}
