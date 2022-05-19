@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 3px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.up {
+    width: 300px;
+    font-size: 50px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pic {
+    width: 30px;
+    max-width: 100%;
+    margin-right: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.up1 {
+    width: 300px;
+    font-size: 30px;
+    color: white;
+    font-family: "Times New Roman", Georgia, Serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textSkills {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+
+ul {
+    padding-left: 35px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.line {
+    text-align: center;
+    float: left;
+}
+
+.Skills {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.opit {
+    color: white;
+    padding: 450px;
+    font-size: 50px;
+}
+
+.znania {
+    display: block;
+}
